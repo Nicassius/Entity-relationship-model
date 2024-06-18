@@ -1,0 +1,83 @@
+<mxfile host="65bd71144e">
+    <diagram id="pK6R3aexTXTAr8aO72Tw" name="Page-1">
+        <mxGraphModel dx="576" dy="513" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="5" value="" style="edgeStyle=none;html=1;" edge="1" parent="1" source="3" target="4">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="30" value="&quot;owns&quot;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="5">
+                    <mxGeometry x="-0.1765" relative="1" as="geometry">
+                        <mxPoint as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="3" value="&lt;span style=&quot;background-color: initial;&quot;&gt;OWNER&lt;br&gt;owner_id&amp;nbsp;&lt;/span&gt;&lt;br&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;last_name&amp;nbsp;&lt;/span&gt;&lt;br&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;first_name&amp;nbsp;&lt;/span&gt;&lt;br&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;address&amp;nbsp;&lt;/span&gt;&lt;br&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;telephone_number&lt;/span&gt;" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="120" y="40" width="280" height="160" as="geometry"/>
+                </mxCell>
+                <mxCell id="9" value="&quot;holds&quot;" style="edgeStyle=none;html=1;exitX=0;exitY=1;exitDx=0;exitDy=0;entryX=1;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="4" target="8">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="4" value="GYMNASIUM&lt;br&gt;gym_id&lt;br&gt;name&lt;br&gt;address&lt;br&gt;&amp;nbsp;telephone_number&lt;br&gt;&amp;nbsp;owner_id&amp;nbsp;" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="570" y="40" width="280" height="160" as="geometry"/>
+                </mxCell>
+                <mxCell id="17" style="edgeStyle=none;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="8" target="10">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="20" value="&quot;has&quot;" style="edgeStyle=none;html=1;exitX=1;exitY=1;exitDx=0;exitDy=0;entryX=0.032;entryY=-0.025;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="8" target="12">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="24" value="" style="edgeStyle=none;html=1;" edge="1" parent="1" source="8" target="11">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="26" style="edgeStyle=none;html=1;exitX=1;exitY=1;exitDx=0;exitDy=0;entryX=0.154;entryY=0.038;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="8" target="13">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="720" y="480" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="28" value="&quot;has&quot;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="26">
+                    <mxGeometry x="0.2198" relative="1" as="geometry">
+                        <mxPoint as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="8" value="SESSIONS&lt;br&gt;session_id&lt;br&gt;&amp;nbsp;sport_type&lt;br&gt;&amp;nbsp;schedule&lt;br&gt;&amp;nbsp;max_capacity&lt;br&gt;&amp;nbsp;gym_id&amp;nbsp;" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="120" y="320" width="280" height="160" as="geometry"/>
+                </mxCell>
+                <mxCell id="14" value="&quot;registers at&quot;" style="edgeStyle=none;html=1;exitX=0.25;exitY=0;exitDx=0;exitDy=0;entryX=1;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="10" target="4">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="19" style="edgeStyle=none;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="10">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="400" y="400" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="29" value="&quot;accomodates&quot;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="19">
+                    <mxGeometry x="0.0526" relative="1" as="geometry">
+                        <mxPoint as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="25" value="&quot;participates in&quot;" style="edgeStyle=none;html=1;" edge="1" parent="1" source="10" target="13">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="10" value="MEMBERS&lt;br&gt;member_id&lt;br&gt;&amp;nbsp;last_name&lt;br&gt;&amp;nbsp;first_name&lt;br&gt;&amp;nbsp;address&lt;br&gt;&amp;nbsp;date_of_birth&lt;br&gt;&amp;nbsp;gender&lt;br&gt;&amp;nbsp;gym_id&amp;nbsp;" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="780" y="320" width="280" height="160" as="geometry"/>
+                </mxCell>
+                <mxCell id="23" value="&quot;ledby&quot;" style="edgeStyle=none;html=1;align=center;verticalAlign=bottom;" edge="1" parent="1" source="11" target="8">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="27" value="&quot;leads&quot;" style="edgeStyle=none;html=1;" edge="1" parent="1" source="11" target="12">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="11" value="COACH&lt;br&gt;coach_id&lt;br&gt;last_name&lt;br&gt;&amp;nbsp;first_name&lt;br&gt;&amp;nbsp;age&lt;br&gt;&amp;nbsp;specialty" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="40" y="560" width="280" height="110" as="geometry"/>
+                </mxCell>
+                <mxCell id="12" value="SESSIONCOACH&lt;br&gt;session_id&lt;br&gt;coach_id&amp;nbsp;" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="390" y="560" width="280" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="13" value="SESSIONMEMBER&lt;br&gt;session_id&lt;br&gt;&amp;nbsp;member_id" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="780" y="560" width="280" height="80" as="geometry"/>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+</mxfile>
